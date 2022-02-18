@@ -10,5 +10,6 @@ sudo curl -L "https://get.daocloud.io/docker/compose/releases/download/1.24.1/do
 chmod +x /usr/local/bin/docker-compose
 #git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
 #git clone  https://git.nju.edu.cn/CPP/oj && cd oj
-git clone  https://gitee.com/cpp-njuer-org/oj && cd oj
+git clone  https://gitee.com/cpp-njuer-org/oj 
+cd oj
 docker-compose up -d
